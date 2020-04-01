@@ -1,0 +1,75 @@
+html, html *{ font-family: verdana }
+body{
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-repeat: no-repeat;
+}
+.principal {
+    width: 500px;
+    height: 600px;
+    border: solid 2px black;
+    position:fixed;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto;
+    background-color: #BFEFFF;
+}
+.titulo{
+    border-bottom: solid 2px black;
+    
+}
+.textotitulo{
+    padding-left: 10px;
+}
+.chat{
+    border: solid 2px black;
+    width: auto;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.controles{
+    margin-top: 10px;
+    margin-left: 10px;   
+    margin-right: 10px;
+}
+.entradaMensagem{
+    width: 80%;
+    margin-right: 10px;
+}
+.botao{
+    width: 70px;
+}
+.mensagemLeft{
+    margin-left: 10px;
+    margin-right: 10px;
+    width:300px;
+    margin-bottom: 10px;
+}
+.mensagemContainer{
+    border: solid 1px black;
+    max-width: 300px;
+    word-wrap: break-word;
+    margin-top: -10px;
+    background-color: white;
+}
+.textoMensagem{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mensagemRight{
+    width:300px;
+    margin-left:auto; 
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.toRight{
+    text-align: right;
+    margin-right: 10px;
+}
